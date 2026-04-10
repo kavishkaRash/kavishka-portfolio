@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #22d3ee;
+  --color-on-surface-variant: #c6c5d4;
+  --color-surface: #10141a;
+  --color-on-surface: #dfe2eb;
+  --color-on-primary: #00363d;
+  --color-surface-container: #1c2026;
+  --color-surface-container-low: #181c22;
+  --color-outline-variant: #454652;
+  --color-tertiary: #a6d700;
+  --color-on-tertiary: #273500;
+  --color-surface-container-highest: #31353c;
+  --color-surface-container-high: #262a31;
+  --font-headline: 'Space Grotesk', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-ping-custom {
+  animation: customPing 1.5s ease-out infinite;
+}
+
+.animate-slide-fade-left {
+  animation: slideFadeLeft 1s ease-out forwards;
+}
+
+.animate-slideRight {
+  animation: slideRight 1s ease forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-scroll {
+  animation: scroll 2s ease-in-out infinite;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseSlow {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+@keyframes customPing {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  70% {
+    transform: scale(3);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+
+@keyframes slideFadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
