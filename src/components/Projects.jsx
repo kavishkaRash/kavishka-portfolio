@@ -27,14 +27,14 @@ const Projects = () => {
                         </div>
 
                         <div className="flex flex-wrap gap-5">
-                            <a class="bg-primary text-on-primary px-6 py-3 rounded-md font-bold hover:scale-105 transition-all duration-300 flex items-center gap-2" href={import.meta.env.VITE_USER_HUB_LIVE_DEMO_LINK}>
+                            <a class="bg-primary text-on-primary px-6 py-3 rounded-md font-bold hover:scale-105 transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href={import.meta.env.VITE_USER_HUB_LIVE_DEMO_LINK}>
                                 Live Demo <span class="material-symbols-outlined text-sm">open_in_new</span>
                             </a>
-                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" href="https://github.com/kavishkaRash/UserHub-frontend.git">
+                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash/UserHub-frontend.git">
                                 Frontend <span class="material-symbols-outlined text-sm" data-icon="computer">Computer</span>
                             </a>
 
-                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" href="https://github.com/kavishkaRash/UserHub-backend.git">
+                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash/UserHub-backend.git">
                                 Backend <span class="material-symbols-outlined text-sm" data-icon="settings">settings</span>
                             </a>
 

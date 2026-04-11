@@ -97,7 +97,7 @@ const Contact = () => {
                                     <span className="text-xl font-headline font-bold">kavishka.rashen.dev@gmail.com</span>
                                 </a>
 
-                                <a className="flex items-center gap-4 text-white hover:text-primary transition-colors group" href="https://www.linkedin.com/in/kavishka-rashen">
+                                <a className="flex items-center gap-4 text-white hover:text-primary transition-colors group" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kavishka-rashen">
                                     <div className="w-12 h-12 bg-surface-container-high flex items-center justify-center rounded-md group-hover:bg-primary/20">
                                         <span className="material-symbols-outlined text-primary">link</span>
                                     </div>

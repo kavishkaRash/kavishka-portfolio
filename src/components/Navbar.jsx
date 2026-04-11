@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 
 const Navbar = () => {
@@ -6,6 +7,12 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false);
     const [active, setActive] = useState("home");
+
+    useEffect(() => {
+        const handleScroll = () => setOpen(false);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
         <nav className="fixed top-0 w-full z-50 glass-nav shadow-2xl shadow-cyan-950/20">
@@ -77,11 +84,43 @@ const Navbar = () => {
                 {/* <!-- Mobile Menu --!> */}
                 {open && (
                     <div className="absolute right-4 top-full mt-2 w-40 bg-black /90 backdrop-blur-lg p-4 space-y-4 rounded-xl shadow-xl md:hidden">
-                        <a href="#home" className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300">Home</a>
-                        <a href="#about" className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300">About</a>
-                        <a href="#skills" className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300">Skills</a>
-                        <a href="#projects" className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300">Projects</a>
-                        <a href="#contact" className="bblock text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300">Contact</a>
+
+                        <a href="#home"
+                            onClick={() => {setActive("home"); setOpen(false); }}
+                            className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        >
+                            Home
+                        </a>
+
+                        <a href="#about"
+                            onClick={() => {setActive("about"); setOpen(false); }}
+                            className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        >
+                            About
+                        </a>
+
+                        <a href="#skills"
+                            onClick={() => {setActive("about"); setOpen(false); }}
+                            className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        >
+                            Skills
+                        </a>
+
+                        <a href="#projects"
+                            onClick={() => {setActive("about"); setOpen(false); }}
+                            className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        >
+                            Project
+                        </a>
+
+                        <a href="#contact"
+                            onClick={() => {setActive("about"); setOpen(false); }}
+                            className="block text-white px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        >
+                            Contact
+                        </a>
+
+                        
                     </div>
                 )}
 

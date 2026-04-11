@@ -9,13 +9,13 @@ const Footer = () => {
                     © 2026 Kavishka Rashen. Built with MERN &amp; Intentionality.
                 </div>
                 <div className="flex gap-6">
-                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" href="mailto:kavishka.rashen.dev@gmail.com">
+                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" target="_blank" rel="noopener noreferrer" href="mailto:kavishka.rashen.dev@gmail.com">
                         <span className="material-symbols-outlined" data-icon="mail">mail</span>
                     </a>
-                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" href="https://www.linkedin.com/in/kavishka-rashen/">
+                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kavishka-rashen/">
                         <span className="material-symbols-outlined" data-icon="link">link</span>
                     </a>
-                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" href="https://github.com/kavishkaRash">
+                    <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash">
                         <span className="material-symbols-outlined" data-icon="code">code</span>
                     </a>
                 </div>
