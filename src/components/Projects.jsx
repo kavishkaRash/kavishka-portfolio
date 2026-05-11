@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Projects = () => {
     return (
         <section className="py-32 bg-surface-container-low" id="projects">
@@ -41,16 +43,12 @@ const Projects = () => {
                         </div>
 
                         <div className="flex flex-wrap gap-5">
-                            <a class="bg-primary text-on-primary px-6 py-3 rounded-md font-bold hover:scale-105 transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://luxglows.netlify.app/">
+                            <Link to="https://luxglows.netlify.app/" class="bg-primary text-on-primary px-6 py-3 rounded-md font-bold hover:scale-105 transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://luxglows.netlify.app/">
                                 Live Demo <span class="material-symbols-outlined text-sm">open_in_new</span>
-                            </a>
-                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash/luxglow-ecommerce-frontend.git">
-                                Frontend <span class="material-symbols-outlined text-sm" data-icon="computer">Computer</span>
-                            </a>
-
-                            <a class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash/luxglow-ecommerce-backend.git">
-                                Backend <span class="material-symbols-outlined text-sm" data-icon="settings">settings</span>
-                            </a>
+                            </Link>
+                            <Link to="/project-detail" class="bg-surface-container-high/60 border border-outline-variant text-white px-6 py-3 rounded-md font-bold hover:bg-surface-container-highest transition-all duration-300 flex items-center gap-2" target="_blank" rel="noopener noreferrer" href="https://github.com/kavishkaRash/luxglow-ecommerce-frontend.git">
+                                View Case Study <span class="material-symbols-outlined text-sm" data-icon="computer">Computer</span>
+                            </Link>
 
                         </div>
 

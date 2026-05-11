@@ -1,25 +1,18 @@
-import Navbar from "./components/Navbar";
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import { Toaster } from "react-hot-toast";
+import HomePage from './pages/HomePage'
+import LuxGlowProjectPage from './pages/LuxGlowProjectPage'
+
 
 const App = () => {
   return(
-    <>
-        <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-        <Toaster position="top-right" />
-    </>
+    <BrowserRouter>
+      <Routes >
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/project-detail" element={<LuxGlowProjectPage />}/>
+      </Routes>
+    </BrowserRouter>
 
   )
 }
