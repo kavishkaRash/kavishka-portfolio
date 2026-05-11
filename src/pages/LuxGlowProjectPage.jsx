@@ -42,7 +42,7 @@ export default function LuxGlowCaseStudy() {
             {
               num: "01",
               title: "The Idea Behind LuxGlow",
-              body: "LuxGlow was created as a concept for a modern luxury skincare e-commerce platform. The goal was to build something that feels like a real commercial product, not just a student project — with proper UX, scalable backend architecture, secure authentication, and a complete admin management system."
+              body: "LuxGlow was created as a concept for a modern luxury skincare e-commerce platform. The goal was to build something that feels like a real commercial product, not just a student project with proper UX, scalable backend architecture, secure authentication, and a complete admin management system."
             },
             {
               num: "02",
