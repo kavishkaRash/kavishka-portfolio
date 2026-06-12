@@ -4,7 +4,6 @@ export default function LuxGlowCaseStudy() {
     return (
         <div className="min-h-screen bg-[#060610] text-zinc-200 font-sans selection:bg-zinc-500/30 selection:text-white">
             
-            {/* Ambient Background Elements */}
             <div className="fixed inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-[-10%] right-[-10%] w-[800px] h-[800px] bg-zinc-800/10 rounded-full blur-[140px]" />
                 <div className="absolute bottom-[20%] left-[-5%] w-[600px] h-[600px] bg-white/[0.01] rounded-full blur-[120px]" />
@@ -13,7 +12,6 @@ export default function LuxGlowCaseStudy() {
 
             <div className="relative max-w-7xl mx-auto px-6 py-24 lg:px-16 space-y-48">
 
-                {/* Hero Section */}
                 <section className="relative z-10 space-y-16 pt-20">
                     <div className="space-y-8">
                         <div className="flex items-center gap-6 group">
@@ -40,7 +38,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Narrative Sections - Restoration of FULL original content */}
                 <div className="space-y-40">
                     <Section 
                         number="01" 
@@ -64,7 +61,6 @@ export default function LuxGlowCaseStudy() {
                     />
                 </div>
 
-                {/* Architecture Grid */}
                 <section className="space-y-20">
                     <Header number="04" title="Core System Architecture" />
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -75,7 +71,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Authentication & Security */}
                 <section className="space-y-20">
                     <Header number="05" title="Authentication & Security" />
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -111,7 +106,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* API Communication */}
                 <section className="space-y-20">
                     <Header number="06" title="API Communication" />
                     <div className="grid md:grid-cols-2 gap-4">
@@ -122,7 +116,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Customer Flow */}
                 <section className="space-y-20">
                     <Header number="07" title="Customer Experience Flow" />
                     <div className="relative overflow-hidden p-1 bg-gradient-to-b from-white/10 to-transparent rounded-[60px]">
@@ -148,7 +141,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Dashboard */}
                 <section className="space-y-20">
                     <Header number="08" title="Admin Dashboard" />
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -159,7 +151,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Features */}
                 <section className="space-y-20">
                     <Header number="09" title="Advanced Features" />
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -174,7 +165,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Infrastructure Layers */}
                 <div className="grid lg:grid-cols-2 gap-10">
                     <div className="space-y-12 p-12 rounded-[50px] border border-white/5 bg-gradient-to-b from-white/[0.02] to-transparent">
                         <Header number="10" title="Backend Layers" />
@@ -200,7 +190,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </div>
 
-                {/* Tech Stack Details */}
                 <section className="space-y-20">
                     <Header number="12" title="Engineering Stack" />
                     <div className="grid md:grid-cols-2 gap-20">
@@ -229,7 +218,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Conclusion - FULL content restoration */}
                 <section className="space-y-32 py-20 border-t border-white/5 text-center relative overflow-hidden">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
                     <div className="max-w-4xl mx-auto space-y-40">
@@ -248,7 +236,6 @@ export default function LuxGlowCaseStudy() {
                     </div>
                 </section>
 
-                {/* Repository Links */}
                 <div className="grid md:grid-cols-2 gap-6">
                     <Link
                         to="https://github.com/kavishkaRash/luxglow-ecommerce-frontend"

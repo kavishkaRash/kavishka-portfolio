@@ -74,14 +74,14 @@ const Navbar = () => {
                     </a>
 
                 </div>
-                {/* <!-- Mobile Menu Placeholder --> */}
+
                 <div className="md:hidden" onClick={() => { setOpen(!open) }}>
                     <span className="material-symbols-outlined text-primary text-3xl">
                         {open ? "close" : "menu"}
                     </span>
                 </div>
 
-                {/* <!-- Mobile Menu --!> */}
+
                 {open && (
                     <div className="absolute right-4 top-full mt-2 w-40 bg-black /90 backdrop-blur-lg p-4 space-y-4 rounded-xl shadow-xl md:hidden">
 

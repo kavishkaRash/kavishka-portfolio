@@ -6,7 +6,7 @@ const Footer = () => {
                     <img src="https://res.cloudinary.com/dnjnrgzxs/image/upload/v1775665735/Stylized_K_logo_with_gradients_zndecj.png" alt="logo" className="w-12 h-12 object-cover scale-250"/>
                 </div>
                 <div className="text-slate-500 mb-6 md:mb-0 text-center">
-                    © 2026 Kavishka Rashen. Built with MERN &amp; Intentionality.
+                    © 2026 Kavishka Rashen. Built with MERN, DevOps &amp; Intentionality.
                 </div>
                 <div className="flex gap-6">
                     <a className="text-slate-500 hover:text-primary transition-colors duration-300 opacity-80 hover:opacity-100" target="_blank" rel="noopener noreferrer" href="mailto:kavishka.rashen.dev@gmail.com">
