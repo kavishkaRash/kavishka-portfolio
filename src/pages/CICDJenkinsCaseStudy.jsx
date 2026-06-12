@@ -4,7 +4,6 @@ export default function CICDJenkinsCaseStudy() {
     return (
         <div className="min-h-screen bg-[#060610] text-zinc-200 font-sans selection:bg-zinc-500/30 selection:text-white">
 
-            {/* Ambient Background */}
             <div className="fixed inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-[-10%] right-[-10%] w-[800px] h-[800px] bg-zinc-800/10 rounded-full blur-[140px]" />
                 <div className="absolute bottom-[20%] left-[-5%] w-[600px] h-[600px] bg-white/[0.01] rounded-full blur-[120px]" />
@@ -13,7 +12,6 @@ export default function CICDJenkinsCaseStudy() {
 
             <div className="relative max-w-7xl mx-auto px-6 py-24 lg:px-16 space-y-48">
 
-                {/* Hero */}
                 <section className="relative z-10 space-y-16 pt-20">
                     <div className="space-y-8">
                         <div className="flex items-center gap-6 group">
@@ -42,7 +40,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Narrative Sections */}
                 <div className="space-y-40">
                     <Section
                         number="01"
@@ -66,7 +63,6 @@ export default function CICDJenkinsCaseStudy() {
                     />
                 </div>
 
-                {/* Pipeline Flow */}
                 <section className="space-y-20">
                     <Header number="04" title="Pipeline Flow" />
                     <div className="relative overflow-hidden p-1 bg-gradient-to-b from-white/10 to-transparent rounded-[60px]">
@@ -93,7 +89,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Architecture */}
                 <section className="space-y-20">
                     <Header number="05" title="System Architecture" />
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -104,7 +99,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Jenkins Pipeline Stages */}
                 <section className="space-y-20">
                     <Header number="06" title="Jenkinsfile Pipeline Stages" />
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -140,7 +134,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Docker Strategy */}
                 <section className="space-y-20">
                     <Header number="07" title="Docker Strategy" />
                     <div className="grid md:grid-cols-2 gap-4">
@@ -151,7 +144,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Tech Stack */}
                 <section className="space-y-20">
                     <Header number="08" title="Engineering Stack" />
                     <div className="grid md:grid-cols-2 gap-20">
@@ -180,7 +172,6 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Conclusion */}
                 <section className="space-y-32 py-20 border-t border-white/5 text-center relative overflow-hidden">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
                     <div className="max-w-4xl mx-auto space-y-40">
@@ -199,7 +190,7 @@ export default function CICDJenkinsCaseStudy() {
                     </div>
                 </section>
 
-                {/* Repository Link */}
+                
                 <div className="grid md:grid-cols-1 gap-6">
                     <Link
                         to="https://github.com/kavishkaRash/github-docker-and-genkins-ci-cd-pipeline"

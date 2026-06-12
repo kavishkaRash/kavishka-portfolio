@@ -1,8 +1,10 @@
 import { FaAws, FaGithub, FaJenkins } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { IoLogoDocker } from "react-icons/io5";
+import { RiReactjsLine } from "react-icons/ri";
 import { RxGithubLogo } from "react-icons/rx";
-import { SiJenkins } from "react-icons/si";
+import { SiExpress, SiJenkins, SiMongodb } from "react-icons/si";
+import { TbBrandNodejs } from "react-icons/tb";
 import { VscGithubAlt } from "react-icons/vsc";
 
 const Skills = () => {
@@ -25,7 +27,7 @@ const Skills = () => {
 
                     <div className="group bg-surface-container p-8 border border-outline-variant/10 hover:border-primary/40 hover:bg-surface-container-high transition-all duration-500 hover:-translate-y-2">
                         <div className="w-16 h-16 bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <span className="material-symbols-outlined text-4xl text-primary">database</span>
+                            <span className="material-symbols-outlined text-4xl text-primary"><SiMongodb /></span>
                         </div>
                         <h3 className="font-headline text-2xl font-bold text-white mb-2">MongoDB</h3>
                         <p className="text-sm text-on-surface-variant leading-relaxed">NoSQL database design, aggregation pipelines, and high-availability data modeling.</p>
@@ -33,7 +35,7 @@ const Skills = () => {
 
                     <div className="group bg-surface-container p-8 border border-outline-variant/10 hover:border-primary/40 hover:bg-surface-container-high transition-all duration-500 hover:-translate-y-2">
                         <div className="w-16 h-16 bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <span className="material-symbols-outlined text-4xl text-primary">router</span>
+                            <span className="material-symbols-outlined text-4xl text-primary"><SiExpress /></span>
                         </div>
                         <h3 className="font-headline text-2xl font-bold text-white mb-2">Express JS</h3>
                         <p className="text-sm text-on-surface-variant leading-relaxed">Middleware architecture, RESTful routing, and robust server-side security protocols.</p>
@@ -41,7 +43,7 @@ const Skills = () => {
 
                     <div className="group bg-surface-container p-8 border border-outline-variant/10 hover:border-primary/40 hover:bg-surface-container-high transition-all duration-500 hover:-translate-y-2">
                         <div className="w-16 h-16 bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <span className="material-symbols-outlined text-4xl text-primary">widgets</span>
+                            <span className="material-symbols-outlined text-4xl text-primary"><RiReactjsLine /></span>
                         </div>
                         <h3 className="font-headline text-2xl font-bold text-white mb-2">React</h3>
                         <p className="text-sm text-on-surface-variant leading-relaxed">Component-driven architecture, state management (Redux/Zustand), and hooks.</p>
@@ -49,7 +51,7 @@ const Skills = () => {
 
                     <div className="group bg-surface-container p-8 border border-outline-variant/10 hover:border-primary/40 hover:bg-surface-container-high transition-all duration-500 hover:-translate-y-2">
                         <div className="w-16 h-16 bg-surface-container-highest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" className="w-12 h-12 filter hue-rotate-[500deg] saturate-200 brightness-110"/>
+                            <span className="material-symbols-outlined text-4xl text-primary"><TbBrandNodejs /></span>
                         </div>
                         <h3 className="font-headline text-2xl font-bold text-white mb-2">Node JS</h3>
                         <p className="text-sm text-on-surface-variant leading-relaxed">Event-driven runtime optimization, stream processing, and server-side logic.</p>
