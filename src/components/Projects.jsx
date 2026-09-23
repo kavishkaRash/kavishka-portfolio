@@ -80,11 +80,11 @@ const Projects = () => {
                             <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">Node.js</span>
                         </div>
                         <div className="flex flex-wrap gap-5">
-                            <Link to="/cicd-jenkins" className="text-primary font-bold flex items-center gap-2">
+                            <Link to="https://luxglows.netlify.app/" className="text-primary font-bold flex items-center gap-2">
                                 Live <span className="material-symbols-outlined text-sm">Computer</span>
                             </Link>
 
-                            <Link to="/cicd-jenkins" className="text-primary font-bold flex items-center gap-2">
+                            <Link to="/project-detail" className="text-primary font-bold flex items-center gap-2">
                                 View Case Study <span className="material-symbols-outlined text-sm">open_in_new</span>
                             </Link>
                         </div>
@@ -96,6 +96,37 @@ const Projects = () => {
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                             </span>
                         </div> */}
+                    </div>
+
+                    <div className="group bg-surface-container border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-all">
+                        <div className="flex items-center gap-2 mb-4">
+
+                            <span className="flex gap-2 items-center bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full border border-primary/20"><span className="relative flex h-3 w-3">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+                            </span>Full Stack</span>
+                        </div>
+                        <h4 className="text-2xl font-bold text-white mb-3"> Velvet Vogue </h4>
+                        <p className="text-on-surface-variant text-sm mb-6">
+                            Velvet Vogue is a full-stack fashion e-commerce platform built with PHP and MySQL, developed as part of an HND Software Engineering coursework project. It handles product browsing and filtering, cart management, and secure checkout through a role-based system with bcrypt password hashing and PDO prepared statements, alongside an admin dashboard for inventory management - with a fully automated Jenkins-to-FTP deployment pipeline.                        </p>
+
+                        <div className="flex flex-wrap gap-2 mb-10">
+                            <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">PHP</span>
+                            <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">MYSQL</span>
+                            <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">VANILLA JAVASCRIPT</span>
+                            <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">HTML/CSS</span>
+                            <span className="bg-surface-container-highest px-3 py-1 rounded-full text-xs font-bold text-primary border border-primary/20">JENKINS</span>
+                        </div>
+                        <div className="flex flex-wrap gap-5">
+                            <Link to="http://velvet-vogue.infinityfree.io/" className="text-primary font-bold flex items-center gap-2">
+                                Live <span className="material-symbols-outlined text-sm">Computer</span>
+                            </Link>
+
+                            <Link to="/velvet-vogue" className="text-primary font-bold flex items-center gap-2">
+                                View Case Study <span className="material-symbols-outlined text-sm">open_in_new</span>
+                            </Link>
+                        </div>
+
                     </div>
 
                     <div className="group bg-surface-container border border-outline-variant/10 p-8 hover:bg-surface-container-high transition-all">

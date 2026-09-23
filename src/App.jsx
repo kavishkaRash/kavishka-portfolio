@@ -5,6 +5,7 @@ import LuxGlowProjectPage from './pages/LuxGlowProjectPage'
 import CICDJenkinsCaseStudy from './pages/CICDJenkinsCaseStudy'
 import CICDGithubActionsCaseStudy from './pages/CICDGithubActionsCaseStudy'
 import CheckmateCaseStudy from './pages/CheckmateCaseStudy'
+import VelvetVogueCaseStudy from './pages/VelvetVogueCaseStudy'
 
 const App = () => {
   return(
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/project-detail" element={<LuxGlowProjectPage />}/>
+        <Route path="/velvet-vogue" element={<VelvetVogueCaseStudy />}/>
         <Route path="/checkmate" element={<CheckmateCaseStudy />}/>
         <Route path="/cicd-jenkins" element={<CICDJenkinsCaseStudy />}/>
         <Route path="/cicd-github-actions" element={<CICDGithubActionsCaseStudy />}/>

@@ -36,6 +36,35 @@ export default function CheckmateCaseStudy() {
                             </span>
                         ))}
                     </div>
+                    <div className="flex flex-wrap gap-4 pt-4">
+                        <Link
+                            to="https://checkmateadmission.com/"
+                            target="_blank" rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black text-xs font-bold uppercase tracking-[0.2em] hover:bg-zinc-200 transition-all duration-300"
+                        >
+                            View Live Site
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </Link>
+                        <Link
+                            to="https://github.com/kavishkaRash/Checkmate-Admission-Frontend"
+                            target="_blank" rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/10 text-zinc-300 text-xs font-bold uppercase tracking-[0.2em] hover:border-white hover:text-white transition-all duration-300"
+                        >
+                            View Repository (Frontend)
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </Link>
+
+                         <Link
+                            to="https://github.com/kavishkaRash/Checkmate-Admission-Backend"
+                            target="_blank" rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/10 text-zinc-300 text-xs font-bold uppercase tracking-[0.2em] hover:border-white hover:text-white transition-all duration-300"
+                        >
+                            View Repository (Backend)
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </Link>
+                        
+
+                    </div>
                 </section>
 
                 <div className="space-y-40">
@@ -43,7 +72,7 @@ export default function CheckmateCaseStudy() {
                         number="01"
                         tag="Vision"
                         title="The Idea Behind Checkmate"
-                        content="Checkmate Admission Guide was built to simplify one of the most confusing journeys a Sri Lankan student faces: applying to a Korean university and securing a D-4 or D-2 student visa. The goal was to turn a scattered, agent-dependent process into a single, guided platform — real university data, a clear visa roadmap, and a management system the Checkmate team could actually run the business on."
+                        content="Checkmate Admission Guide was built to simplify one of the most confusing journeys a Sri Lankan student faces: applying to a Korean university and securing a D-4 or D-2 student visa. The goal was to turn a scattered, agent-dependent process into a single, guided platform - real university data, a clear visa roadmap, and a management system the Checkmate team could actually run the business on."
                     />
 
                     <Section
@@ -57,7 +86,7 @@ export default function CheckmateCaseStudy() {
                         number="03"
                         tag="Execution"
                         title="How I Built It"
-                        content="I designed a clean, trust-focused UI in React and Tailwind CSS, then built a single dynamic UniversityDetail component driven entirely by data — so adding a 27th university never means writing new code. The data itself is structured into nested categories (Language Program, Bachelor, Master, PhD, Associate Degree) so programs can be filtered per category instead of dumped in one flat list. On the backend, a MERN API handles inquiries, appointments, reviews, and a full admin dashboard, with JWT-based auth separating admin and public access."
+                        content="I designed a clean, trust-focused UI in React and Tailwind CSS, then built a single dynamic UniversityDetail component driven entirely by data - so adding a 27th university never means writing new code. The data itself is structured into nested categories (Language Program, Bachelor, Master, PhD, Associate Degree) so programs can be filtered per category instead of dumped in one flat list. On the backend, a MERN API handles inquiries, appointments, reviews, and a full admin dashboard, with JWT-based auth separating admin and public access."
                     />
                 </div>
 
@@ -225,7 +254,7 @@ export default function CheckmateCaseStudy() {
                             number="13"
                             tag="The Difference"
                             title="The Special Sauce"
-                            content="Checkmate isn't just a landing page for a consultancy. It's a data-driven university catalog, a lead-generation engine, and an internal admin system in one codebase — built so the business can scale from 26 universities to hundreds without a single new page being written."
+                            content="Checkmate isn't just a landing page for a consultancy. It's a data-driven university catalog, a lead-generation engine, and an internal admin system in one codebase - built so the business can scale from 26 universities to hundreds without a single new page being written."
                         />
                         <Section
                             number="14"
